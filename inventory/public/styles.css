@@ -9,24 +9,20 @@ body {
 
 .inventory {
   display: grid;
-  background-color: hsla(240, 40%, 60%, 0.7);
+  background-color: #232332;
   border: 1px solid #ddd;
   grid-template-columns: repeat(5, 150px);
   grid-auto-rows: 150px;
-  gap: 10px;
-  padding: 10px;
+  gap: 5px;
+  padding: 5px;
 }
 
 .inventory-slot {
   display: flex;
-  background-color: hsla(240, 50%, 60%, 0.7);
+  background-color: #32323c;
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
-}
-
-.inventory-slot.empty {
-  border: 1px dashed #ddd;
   justify-content: center;
 }
 
