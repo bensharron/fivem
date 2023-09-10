@@ -62,7 +62,7 @@ class App extends React.Component {
             <div>
                 <h1>Inventory</h1>
 
-                <div className="dropzone" onDrop={(event) => this.handleDrop(event, 'dropzone')} onDragOver={this.handleDragOver}>
+{/*                 <div className="dropzone" onDrop={(event) => this.handleDrop(event, 'dropzone')} onDragOver={this.handleDragOver}>
                     {droppedItems.map((item) => (
                         <div
                             key={item.id}
@@ -86,7 +86,7 @@ class App extends React.Component {
                         {item.name}
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
         );
     }
