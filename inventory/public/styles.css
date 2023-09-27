@@ -65,9 +65,9 @@ h1 {
 }
 
 .inventory-item img {
-  max-width: 100%;
+  width: 85px;
   height: 85px;
-  margin: 5px;
+  margin: 5px auto;
 }
 
 .item-label {
