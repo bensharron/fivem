@@ -26,19 +26,19 @@ h1 {
   scrollbar-gutter: stable;
 }
 
-::-webkit-scrollbar {
+.inventory::-webkit-scrollbar {
   width: 5px;
 }
 
-::-webkit-scrollbar-track {
+.inventory::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-::-webkit-scrollbar-thumb {
+.inventory::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.inventory::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
